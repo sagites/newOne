@@ -1,8 +1,27 @@
-.container {
-    border: 2px;
-    border-color: #000;
-    border-style: solid;
-    margin: 5px solid #000;
-    height: 200px;
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+.countdown {
+    font-size: 3rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
