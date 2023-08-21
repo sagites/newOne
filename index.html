@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown Timer App</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div id="hours"></div>
-            <div id="minutes"></div>
-            <div id="seconds"></div>
-            <div id="ampm"></div>
-        </div>
-    </main>
-
-    <script src="main.js"></script>
+<div class="countdown-container">
+    <div class="countdown">
+        <span class="minutes">00</span>:<span class="seconds">00</span>
+    </div>
+    <button id="startBtn">Start Countdown</button>
+    <button class="btn">Reset Timer</button>
+</div>
+<script src="play.js"></script>
 </body>
 </html>
